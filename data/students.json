@@ -1,0 +1,21 @@
+[
+	{
+		"student_id": 2019270111,
+		"password": "pera",
+		"first_name": "Petar",
+		"last_name": "Petrović",
+		"email": "petar.petrovic.19@singimail.ac.rs",
+		"grades": [
+			{
+				"subject_id": "123",
+				"professor_id": "111",
+				"grade": 8
+			},
+			{
+				"subject_id": "139",
+				"professor_id": "333",
+				"grade": 9
+			}
+		]
+	}
+]
