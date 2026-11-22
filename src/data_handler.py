@@ -1,9 +1,12 @@
 import json
 import os
 
-SUBJECTS_FILE = "student-service-app/data/subjects.csv"
-PROFESSORS_FILE = "student-service-app/data/professors.csv"
-STUDENTS_FILE = "student-service-app/data/students.json"
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
+
+SUBJECTS_FILE = os.path.join(DATA_DIR, "subjects.csv")
+PROFESSORS_FILE = os.path.join(DATA_DIR, "professors.csv")
+STUDENTS_FILE = os.path.join(DATA_DIR, "students.json")
 
 
 def load_subjects():
